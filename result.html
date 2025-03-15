@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPA Aptitude Test Results 2025</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo-container">
+                <img src="KBCNMUlogo.jpeg" alt="KBCNMU Logo" class="logo">
+                <div class="title-container">
+                    <h1>PPA Aptitude Test Result 2025</h1>
+                    <h3>School of Computer Sciences KBCNMU, Jalgaon</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>Your Test Results</h2>
+            
+            <div id="studentInfo">
+                <div class="info-row">
+                    <div class="info-item">
+                        <p><strong>Email:</strong> <span id="email"></span></p>
+                    </div>
+                    <div class="info-item">
+                        <p><strong>Seat No:</strong> <span id="seatNo"></span></p>
+                    </div>
+                </div>
+                <div class="score-container">
+                    <div class="score-circle">
+                        <div class="score-wrapper">
+                            <span id="score"></span>
+                            <span class="score-total">/40</span>
+                        </div>
+                    </div>
+                    <p class="score-label">Total Score</p>
+                </div>
+            </div>
+            
+            <div class="chart-container">
+                <canvas id="analyticsChart"></canvas>
+            </div>
+            
+            <div id="resultDetails"></div>
+            
+            <button onclick="logout()" class="logout-btn">Logout</button>
+        </div>
+        
+        <footer>
+            <p>&copy; Pre-Placment Activity Club 2025. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
