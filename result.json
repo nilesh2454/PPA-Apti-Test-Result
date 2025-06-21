@@ -1356,13 +1356,13 @@
  {
   "Email": "nilesh@gmail.com",
   "SeatNo": "PPA-124",
-  "Score": 5,
+  "Score": 22,
   "Aptitude": 4,
-  "DSA": 2,
-  "SQL": 4,
-  "Python": 1,
-  "CPP": 3,
-  "Java": 3
+  "DSA": 3,
+  "SQL": 3,
+  "Python": 3,
+  "CPP": 5,
+  "Java": 4
  }
 ],
 "Sheet2":[],
