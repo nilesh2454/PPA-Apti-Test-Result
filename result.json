@@ -1352,6 +1352,17 @@
   "Python": 0,
   "CPP": 0,
   "Java": 3
+ },
+ {
+  "Email": "nilesh@gmail.com",
+  "SeatNo": "PPA-124",
+  "Score": 5,
+  "Aptitude": 4,
+  "DSA": 2,
+  "SQL": 4,
+  "Python": 1,
+  "CPP": 3,
+  "Java": 3
  }
 ],
 "Sheet2":[],
